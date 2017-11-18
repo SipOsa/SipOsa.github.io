@@ -4,7 +4,6 @@ function ff(){
 var img = document.getElementById('login');
 var modal = document.getElementById('myModal');
 $('#login').on('click',function(){
-  alert('login');
   img = document.getElementById('login');
   modal.style.display = "block";
   modalImg.src = this.src;
