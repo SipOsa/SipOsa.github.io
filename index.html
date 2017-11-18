@@ -1,136 +1,101 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>ismael flores</title>
+		<title>Productos</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/imgModal.css">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
-		<script>(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.11';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-
 	</head>
+
 	<body>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/ismael.png" alt="" /></span>
-						<h1>ismael flores</h1>
-						<p>Desarrollador JAVA Web y Escritorio<br />
-						</p>
+					<header id="header">
+						<h1>Productos</h1>
+						<p>Oferta de productos de software</p>
 					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Inicio</a></li>
-							<li><a href="#first">Profesional</a></li>
-							<li><a href="#second">Servicios y Productos</a></li>
-						</ul>
-					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Desarrollo de software a la medida</h2>
-										</header>
-										<p>Desarrollo de soluciones de software web  de escritorio a la medida,
-											servicios profesionales de desarrollo de software a la medida.</p>
-									</div>
-									<span><img  style="width:250px; height:200px; left:800px;" src="images/pic01.gif" alt="" /></span>
+						<!-- Content -->
+							<section id="content" class="main">
+								<span ><img style="width: 800px; height:450px;" src="images/pic04.gif" alt="" /></span>
+								<h2>App ENVIO DE NOTIFICACIONES (Standalone / Escritorio)</h2>
+								<p>App para envío de notificaciones sms</p>
+								<p>Cuenta con un catálogo de usuarios para acceder a la aplicación, la posibilidad de eliminar y agregar nuevos, así como un catálogo de clientes con opciones de editar, eliminar y agregarlos, un reporte de actividades (bitácora) registro de pagos, un proceso para envío de recordatorios de pagos cada cierto tiempo, un area de envío de notificaciones manuales para envío de mensajes vía celular con texto personalizado a uno o más clientes de el catálogo.</p>
+
+								<table>
+									<tr>
+										<td>
+											<img id="login" alt="LOGIN" src="images/appNotif/LOGIN.png" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="menu" alt="MENU PRINCIPAL" src="images/appNotif/MENU_PRINCIPAL_2.png" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="au" alt="ALTA DE USUARIOS" src="images/appNotif/ALTA_USUARIO.png" style="width:300px; height:250px;">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img id="ac" alt="ALTA DE CLIENTES" src="images/appNotif/ALTA_CLIENTE.png" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="ap" alt="ALTA DE PAGOS" src="images/appNotif/ALTA_PAGO.png" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="cmc" alt="CARGA MASIVA DE CLIENTES" src="images/appNotif/CMC.png" style="width:300px; height:250px;">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img id="ru" alt="REPORTE DE USUARIOS" src="images/appNotif/REPORTE_USUARIO.png" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="rc" alt="REPORTE DE CLIENTES" src="images/appNotif/REPORTE_CLIENTE.png" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="rp" src="images/appNotif/REPORTE_PAGO.png" alt="REPORTE DE PAGOS" style="width:300px; height:250px;">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img id="rb" src="images/appNotif/REPORTE_BITACORA.png" alt="REPORTE DE BITACORA" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="enm" src="images/appNotif/ENM.png" alt="ENVIO DE NOTIFICACIONES MANUALES" style="width:300px; height:250px;">
+										</td>
+										<td>
+											<img id="smsI" src="images/appNotif/smsI.jpg" alt="ENVÍO DE SMS" style="width:300px; height:250px;">
+										</td>
+									</tr>
+								</table>
+
+								<div id="myModal" class="modal">
+								  <span class="close">&times;</span>
+								  <img class="modal-content" id="img01">
+								  <div id="caption"></div>
 								</div>
+
+								<h2>Posibles Areas de aplicación</h2>
+								<p>Publicidad (Envío de ofertas sobre productos y/o servicios via SMS, Consultorios, Tiendas, Gimnacios, etc).</p>
 							</section>
 
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h2>Experiencia Profesional</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Estudios profesionales</h3>
-										<p>Ingeniería en Sistemas Computacionales &bull; ITSLR</p>
-									</li>
-									<li>
-										<span class="icon major style1 fa-code"></span>
-										<h3>Experiencia profesional</h3>
-										<p>Training Consultants and Computer Solutions &bull; Desarrollador JAVA Web<br/>
-										Intellego SC &bull; Desarrollador JAVA<br/>
-										Grupo Salinas &bull; Desarrollador JAVA<br/>
-										Quality and Knowledge on IT Services &bull; Desarrollador JAVA</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-diamond"></span>
-										<h3>Servicios profesionales</h3>
-										<p>Desarrollo de software a la medida (Web y Escritorio)</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="files/CV_IF.pdf" class="button" dowload>Curriculum</a></li>
-									</ul>
-								</footer>
-							</section>
-
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2>Servicios y Productos</h2>
-									<p>Desarrollo de software a la medida</p>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon fa-code-fork"></span><br/>
-										Multiplataforma
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open-o"></span><br/>
-										Registro de acciones
-									</li>
-									<li class="style3">
-										<span class="icon fa-signal"></span><br/>
-										Reportes
-									</li>
-									<li class="style4">
-										<span class="icon fa-laptop"></span><br/>
-										Alta capacidad de cómputo
-									</li>
-									<li class="style5">
-										<span class="icon fa-diamond"></span><br/>
-										Valor agregado
-									</li>
-								</ul>
-								<p >Para ver detalles de aplicaciones existentes da clic en el siguiente enlace.</p>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="productos.html" class="button">Productos existentes</a></li>
-									</ul>
-								</footer>
-							</section>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
 							<h2>Envianos tus dudas y sugerencias</h2>
-							<p>Comunícate con nostros a travez de cualquiera de nuestros medios disponibles, envianos tus dudas y/o sugerencias a nuestro correo, contactanos para informacion de presupuestos vía correo electrónico, watsapp o bien vía telefónica, síguenos en twitter</p>
+							<p>Comunícate con nostros a travez de cualquiera de nuestros medios disponibles, envianos tus dudas y/o sugerencias a nuestro correo, contactanos para informacion de presupuestos vía correo electrónico, watsapp o bien vía telefónica, síguenos en twitter.</p>
 						</section>
 						<section>
 							<h2>Datos de contacto</h2>
@@ -153,11 +118,10 @@
 								</li>
 							</ul>
 						</section>
-						<p class="copyright">&copy;  <a href="#">ismael flores a</a>.</p>
+						<p class="copyright"><a href="#">ismael flores a</a>.</p>
 					</footer>
-			</div>
 
-		<div id="fb-root"></div>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -167,6 +131,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/imgModal.js"></script>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	</body>
