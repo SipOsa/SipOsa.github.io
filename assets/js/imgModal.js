@@ -75,6 +75,12 @@ $('#smsI').on('click',function(){
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
 });
+$('#fu').on('click',function(){
+  var img = document.getElementById('fu');
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+});
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 
 var modalImg = document.getElementById("img01");
