@@ -1,7 +1,10 @@
 // Get the modal
+
+function ff(){
 var img = document.getElementById('login');
 var modal = document.getElementById('myModal');
 $('#login').on('click',function(){
+  alert('login');
   img = document.getElementById('login');
   modal.style.display = "block";
   modalImg.src = this.src;
@@ -84,4 +87,6 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
+}
+
 }
