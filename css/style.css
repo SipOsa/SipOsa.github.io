@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
 body p{
 	font-family: 'Lato', sans-serif;
 }
-	
+
 ul ,ol {
 	 padding:0;
 }
@@ -20,14 +20,15 @@ h1,h2,h3,h4,h5,h6{
 }
 /* -- header --*/
 .header{
-    background: url(../images/bg2.jpg) no-repeat center;
+    background: url(../images/bg2.jpg);
+		background-repeat: no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;
     min-height: 700px;
-	position:relative;
+	position: relative;
 }
 /*-- top-nav --*/
 /* Underline From Center */
@@ -309,7 +310,8 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 7px;
     text-transform: uppercase;
     width: 30%;
-    background: #f44639;
+		background: #f44639;
+/*		background-image: url(../images/siposa_logo.png);*/
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     padding: 12px 43px;
@@ -503,8 +505,8 @@ span.hi-icon {
 	height: 100%;
 	border-radius: 50%;
 	content: '';
-	-webkit-box-sizing: content-box; 
-	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
@@ -759,8 +761,8 @@ span.hi-icon {
 	box-sizing: border-box;
 }
 .ih-item img {
-  width: 100%; 
-} 
+  width: 100%;
+}
 .ih-item.circle,.ih-item.circle .img {
 	position: relative;
     border-radius: 50%;
@@ -781,10 +783,10 @@ span.hi-icon {
 	width: 100%;
 	height: 100%;
 	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%; 
+	-moz-border-radius: 50%;
 	border-radius: 50%;
 	-webkit-box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3); 
+	-moz-box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
 	box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
 	-webkit-transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
@@ -792,7 +794,7 @@ span.hi-icon {
 }
 .ih-item.circle .img img {
 	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%; 
+	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
 .ih-item.circle .info {
@@ -803,7 +805,7 @@ span.hi-icon {
 	right: 0;
 	text-align: center;
 	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%; 
+	-moz-border-radius: 50%;
 	border-radius: 50%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -813,7 +815,7 @@ span.hi-icon {
     border-right-color: #DFDFDF;
     border-bottom-color: #DFDFDF;
 	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%; 
+	-moz-border-radius: 50%;
     border-radius: 50%;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
@@ -933,7 +935,7 @@ h3.agileits-title {
 }
 /*-- count --*/
 .count {
-    background: url(../images/c.jpg) no-repeat 0px 0px;
+    background: url(../images/bg2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1435,7 +1437,7 @@ select {
 /*----*/
 .filtr-item {
     transform: scale(1) translate3d(0px, 0px, 0px);
-	-o-transform: scale(1) translate3d(0px, 0px, 0px);   
+	-o-transform: scale(1) translate3d(0px, 0px, 0px);
     transition: all 0.5s ease-out 0ms;
 	-o-transition: all 0.5s ease-out 0ms;
 	transform-style: preserve-3d;
@@ -1640,7 +1642,7 @@ table tr td i {
 	bottom: 24px;
 	right: 1%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
     width: 64px;
     height: 64px;
 	border: none;
@@ -1842,7 +1844,7 @@ table tr td i {
 	.logo h1 {
 		width: 38%;
 	}
-	
+
 	.rslides li {
 		top: -106px;
 	}
@@ -2447,7 +2449,7 @@ ul.nav.navbar-nav.navbar-right {
 	margin: 0;
 	margin-left: 42%;
 }
-	.navbar-default .navbar-nav > li > a { 
+	.navbar-default .navbar-nav > li > a {
 		text-align: center;
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -2465,10 +2467,10 @@ ul.nav.navbar-nav.navbar-right {
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color: #ff8c00;
 	}
-	.navbar-default .navbar-nav > li > a:before { 
-		width: 0; 
+	.navbar-default .navbar-nav > li > a:before {
+		width: 0;
 	}
-	.navbar-default .navbar-nav > li > a { 
+	.navbar-default .navbar-nav > li > a {
 		padding: 0.8em;
 	}
 	.navbar-nav > li {
