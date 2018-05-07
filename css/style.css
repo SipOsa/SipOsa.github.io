@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /* -- header --*/
 .header{
-    background: url(../images/bg2.jpg);
+/*    background: url(../images/bg2.jpg);*/
 		background-repeat: no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -935,7 +935,7 @@ h3.agileits-title {
 }
 /*-- count --*/
 .count {
-    background: url(../images/bg2.jpg) no-repeat 0px 0px;
+/*    background: url(../images/bg2.jpg) no-repeat 0px 0px;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1502,7 +1502,7 @@ ul.simplefilter {
 .w3lcontact {
     padding-bottom: 23em;
     text-align: center;
-    background: url(../images/co.jpg) no-repeat fixed;
+    background: url(../images/cow.jpg) no-repeat fixed;
     background-size: cover;
     position: relative;
 }
